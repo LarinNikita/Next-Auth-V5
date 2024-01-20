@@ -8,7 +8,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { RegisterSchema } from "@/schemas";
 import { register } from "@/actions/register";
 
-import CardWrapper from "@/components/auth/card-wrapper";
+import { CardWrapper } from "@/components/auth/card-wrapper";
 import {
     Form,
     FormControl,
