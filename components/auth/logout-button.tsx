@@ -11,7 +11,7 @@ export const LogoutButton = ({
 }: LogoutButtonProps) => {
 
     const onClick = () => {
-        logout
+        logout();
     };
 
     return (
